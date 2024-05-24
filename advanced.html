@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Git Commands</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 style="color: yellow;">Advance Git Command</h1>
+    </header>
+    <main>
+        <section id="command-1">
+            <h2 style="color: yellowgreen;">Command 1: git rebase</h2>
+            <p>Explanation: Reapply commits on top of another base tip.</p>
+            <div class="command">
+                <h3>Example:</h3>
+                <p>Rebase the current branch onto <code>master</code>:</p>
+                <div class="command-line">$ git rebase master</div>
+            </div>
+        </section>
+        <section id="command-2">
+            <h2 style="color: yellowgreen;">Command 2: git cherry-pick</h2>
+            <p>Explanation: Apply changes introduced by some existing commits.</p>
+            <div class="command">
+                <h3>Example:</h3>
+                <p>Apply the changes introduced by the commit <code>abc123</code>:</p>
+                <div class="command-line">$ git cherry-pick abc123</div>
+            </div>
+        </section>
+        <section id="command-3">
+            <h2 style="color: yellowgreen;">Command 3: git reflog</h2>
+            <p>Explanation: Reference logs, or "reflogs", record when the tips of branches and other references were updated in the local repository.</p>
+            <div class="command">
+                <h3>Example:</h3>
+                <p>Show the reflog for the <code>HEAD</code> reference:</p>
+                <div class="command-line">$ git reflog</div>
+            </div>
+        </section>
+        <section id="command-4">
+            <h2 style="color: yellowgreen;">Command 4: git bisect</h2>
+            <p>Explanation: Use binary search to find the commit that introduced a bug.</p>
+            <div class="command">
+                <h3>Example:</h3>
+                <p>Start the bisecting process:</p>
+                <div class="command-line">$ git bisect start</div>
+            </div>
+        </section>
+        <section id="command-5">
+            <h2 style="color: yellowgreen;">Command 5: git reset</h2>
+            <p>Explanation: Reset current HEAD to the specified state.</p>
+            <div class="command">
+                <h3>Example:</h3>
+                <p>Reset the current branch to the commit <code>HEAD~2</code>:</p>
+                <div class="command-line">$ git reset HEAD~2</div>
+            </div>
+        </section>
+        <section id="command-6">
+            <h2 style="color: yellowgreen;">Command 6: git stash</h2>
+            <p>Explanation: Stash the changes in a dirty working directory away.</p>
+            <div class="command">
+                <h3>Example:</h3>
+                <p>Stash the changes:</p>
+                <div class="command-line">$ git stash</div>
+            </div>
+        </section>
+        <!-- Add more sections for other advanced commands -->
+        <button onclick="goToHomePage()" class="advanced-button">Go Back to Home</button>
+    </main>
+    <footer>
+       Hope you enjoyed the git course!
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

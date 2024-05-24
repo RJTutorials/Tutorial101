@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Git</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 style="color: yellow;"> Git Tutorial By Riya</h1>
+    </header>
+    <main>
+        <section id="theory">
+            <h2 style="color: yellowgreen;">What is Git?</h2>
+            <p>Git is a distributed version control system designed to handle everything from small to very large projects with speed and efficiency. It allows multiple developers to work on the same project without interfering with each other's work.</p>
+            <p>Git was created by Linus Torvalds in 2005 for the development of the Linux kernel, and it has since become the most widely used version control system in the world.</p>
+            <p>Key features of Git include:</p>
+            <ul>
+                <li>Distributed Development: Each developer has a complete copy of the repository, including the full history.</li>
+                <li>Data Integrity: Git ensures the integrity of your data with its robust SHA-1 hashing algorithm.</li>
+                <li>Non-linear Development: Git supports rapid branching and merging, facilitating flexible and non-linear workflows.</li>
+            </ul>
+        </section>
+        <section id="git-vs-github">
+            <h2 style="color: yellowgreen;">Git vs GitHub</h2>
+            <p>Git is a version control system, a tool to manage the history of a project’s code. GitHub, on the other hand, is a platform for hosting Git repositories. It adds many features, such as bug tracking, task management, and collaboration tools.</p>
+            <p>While Git is a command-line tool, GitHub provides a web-based graphical interface. GitHub also offers additional features:</p>
+            <ul>
+                <li>Repositories: Host and review code, manage projects, and build software alongside millions of other developers.</li>
+                <li>Issues: Track and manage bugs and feature requests.</li>
+                <li>Pull Requests: Discuss and review code changes before integrating them into the main branch.</li>
+                <li>Actions: Automate workflows and CI/CD pipelines.</li>
+            </ul>
+        </section>
+        <hr>
+        <hr>
+        <section id="getting-started">
+            <h2 style="color: yellowgreen;">Getting Started with Git</h2>
+            <p>To start using Git for version control, follow these steps:</p>
+            <ol>
+                <li>Install Git on your system if you haven't already. You can download Git from the official website: <a href="https://git-scm.com/">https://git-scm.com/</a></li>
+                <li>Open a terminal or command prompt.</li>
+                <li>Navigate to the directory where you want to initialize your Git repository.</li>
+                <li>Run the following command to initialize a new Git repository:</li>
+            </ol>
+            <div class="command">
+                <h3>git init</h3>
+                <p>Initializes a new Git repository.</p>
+                <div class="command-line">$ git init</div>
+            </div>
+            <p>Now you have initialized a new Git repository in your chosen directory.</p>
+        </section>
+        
+    <script src="script.js"></script>
+
+        <section id="commands">
+            <h2 style="color: yellowgreen;">Common Git Commands</h2>
+            <div class="command">
+                <h3>git init</h3>
+                <p>Initializes a new Git repository.</p>
+                <div class="command-line">git init</div>
+            </div>
+            <div class="command">
+                <h3>git clone [url]</h3>
+                <p>Clones a repository into a new directory.</p>
+                <div class="command-line">git clone</div>
+            </div>
+            <div class="command">
+                <h3>git status</h3>
+                <p>Shows the working directory status.</p>
+                <div class="command-line">git status</div>
+            </div>
+            <div class="command">
+                <h3>git add [file]</h3>
+                <p>Adds a file to the staging area.</p>
+                <div class="command-line">git add</div>
+            </div>
+            <div class="command">
+                <h3>git commit -m "message"</h3>
+                <p>Commits the staged snapshot with a message.</p>
+                <div class="command-line">git commit</div>
+            </div>
+            <div class="command">
+                <h3>git push</h3>
+                <p>Pushes the changes to the remote repository.</p>
+                <div class="command-line">git push</div>
+            </div>
+            <div class="command">
+                <h3>git pull</h3>
+                <p>Fetches and integrates changes from the remote repository.</p>
+                <div class="command-line">git pull</div>
+            </div>
+        </section>
+        <section id="commands">
+            <!-- Common Git Commands section content -->
+            <button onclick="redirectToAdvanced()" class="advanced-button">Advanced Commands</button>
+        </section>
+
+    </main>
+    <footer>
+        <p> Copyright &copy; 2024 Learn Git</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

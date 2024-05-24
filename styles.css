@@ -1,0 +1,156 @@
+/* Add your existing CSS styles here */
+/* Add your existing CSS styles here */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust the opacity to make it slightly darker */
+}
+
+/* Other styles remain unchanged */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 0 10px; /* Add padding to the body for smaller screens */
+    }
+    main {
+        padding: 10px; /* Add padding to the main content for smaller screens */
+    }
+    .command {
+        padding: 15px; /* Increase padding for command boxes on smaller screens */
+    }
+    h1, h2 {
+        font-size: 1.5em; /* Decrease heading font size for smaller screens */
+    }
+    ul {
+        margin-left: 15px; /* Adjust margin for unordered lists on smaller screens */
+    }
+    footer {
+       max-width: 100%; /* Make the footer take full width on smaller screens */
+        text-align: center; /* Center the text in the footer */
+    }
+}
+
+
+header, footer {
+    text-align: center;
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+main {
+    flex: 1;
+    padding: 2em;
+}
+
+h1, h2 {
+    margin: 0.5em 0;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 1.5em;
+}
+
+.command {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1em;
+    border-radius: 8px;
+    margin-top: 1em;
+    transition: transform 0.3s ease;
+}
+
+.command:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+/* @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    animation: fadeIn 1s ease-in-out;
+} */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        padding: 1em;
+    }
+    .command {
+        padding: 0.8em;
+    }
+    h1, h2 {
+        font-size: 1.5em;
+    }
+    ul {
+        margin-left: 1em;
+    }
+}
+
+.command {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1em;
+    border-radius: 8px;
+    margin-top: 1em;
+    transition: transform 0.3s ease;
+}
+
+.command:hover {
+    transform: scale(1.05);
+}
+
+.command-line {
+    background-color: #000;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0.5em;
+    border-radius: 4px;
+    margin-top: 0.5em;
+    overflow-x: auto;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.9);
+    max-width: 100%;
+}
+/* Add your existing CSS styles here */
+
+/* Styling for the advanced button */
+.advanced-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.advanced-button:hover {
+    background-color: #45a049;
+}
